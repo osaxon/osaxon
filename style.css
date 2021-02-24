@@ -3,9 +3,11 @@
 }
 
 :root {
-    --primary-white: #F2F0F1;
-    --yellow: rgba(251, 156, 2, 0.90);
-    --dark-blue: #252430;
+    --primary-white: #f1faee;
+    --red: rgba(230, 57, 70, 0.90);
+    --dark-blue: #1d3557;
+    --light-blue:#457b9d;
+    --aqua-blue:#a8dadc;
     --heading-font: 'Press Start 2P', cursive;
     --main-font: 'Oxygen', sans-serif;
 }
@@ -18,7 +20,7 @@ body {
 header {
     padding: 15px 6% 15px 0;
     display: flex;
-    background-color: var(--yellow);
+    background-color: var(--dark-blue);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -102,12 +104,16 @@ nav a {
 .project {
     display: flex;
     align-items: flex-end;
+    background-color: var(--aqua-blue);
     background-size: 80%;
     background-repeat: no-repeat;
 }
 
 .surf {
     background-image: url(../osaxon/img/surf.jpg);
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-size: 90%;
     min-height: 30vw;
     flex: 1 1 100%;
 }
