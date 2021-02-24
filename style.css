@@ -4,7 +4,7 @@
 
 :root {
     --primary-white: #f1faee;
-    --red: rgba(230, 57, 70, 0.90);
+    --red: rgba(230, 57, 71, 1);
     --dark-blue: #1d3557;
     --light-blue:#457b9d;
     --aqua-blue:#a8dadc;
@@ -32,7 +32,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-h2 {
+h2, h3 {
     color: var(--dark-blue);
     font-family: var(--main-font);
 }
@@ -102,20 +102,41 @@ nav a {
 }
 
 .project {
+    border: solid 3px var(--aqua-blue);
     display: flex;
     align-items: flex-end;
-    background-color: var(--aqua-blue);
-    background-size: 80%;
+    background-color: var(--primary-white);
+    min-height: 200px;
+    max-height: 300px;
+    flex-basis: 50%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-attachment: scroll;
+    background-blend-mode: multiply;
+    background-position: bottom;
+    background-size: 120%;
     background-repeat: no-repeat;
+}
+
+.project:first-child {
+    background-attachment: fixed;
+    background-size: 80%;
+    min-width: 400px;
+    min-height: 300px;
+    flex-basis: 100%
 }
 
 .surf {
     background-image: url(../osaxon/img/surf.jpg);
-    background-attachment: fixed;
-    background-blend-mode: multiply;
-    background-size: 90%;
-    min-height: 30vw;
-    flex: 1 1 100%;
+}
+
+.LED {
+    background-image: url(../osaxon/img/LED.jpg);
+}
+
+.calc {
+    background-position: left center;
+    background-image: url(../osaxon/img/calc.jpg)
 }
 
 @media screen and (max-width: 980px) {
