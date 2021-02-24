@@ -7,7 +7,7 @@
     --yellow: rgba(251, 156, 2, 0.90);
     --dark-blue: #252430;
     --heading-font: 'Press Start 2P', cursive;
-    --p-font: 'Oxygen', sans-serif;
+    --main-font: 'Oxygen', sans-serif;
 }
 
 body {
@@ -31,22 +31,25 @@ header h1 {
 }
 
 h2 {
-    color: var(--dark-blue)
+    color: var(--dark-blue);
+    font-family: var(--main-font);
 }
 
 p {
     margin: 0;
-    font-family: var(--p-font);
+    font-family: var(--main-font);
 }
 
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: var(--primary-white);
 }
 
 nav a {
     text-decoration: underline;
+    font-family: var(--main-font);
     padding: 5px 10px;
     color: var(--dark-blue);
     margin-right: 10px;
@@ -88,6 +91,25 @@ nav a {
 
 .page-section p {
     margin-bottom: 20px;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    align-items: flex-end;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.surf {
+    background-image: url(../osaxon/img/surf.jpg);
+    min-height: 30vw;
+    flex: 1 1 100%;
 }
 
 @media screen and (max-width: 980px) {
