@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -18,15 +20,22 @@ body {
 }
 
 header {
-    padding: 15px 6% 15px 0;
+    padding: 2% 0 2% 0;
     display: flex;
     background-color: var(--dark-blue);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
-header h1 {
+
+nav {
+    background-color: var(--primary-white);
+    padding: 0 15px;
+}
+
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-white);
     font-size: 2.5rem;
@@ -42,25 +51,16 @@ p {
     font-family: var(--main-font);
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--primary-white);
 
-}
-
-nav a {
+a {
     font-family: var(--main-font);
-    padding: 5px 10px;
     color: var(--dark-blue);
-    margin-right: 10px;
     font-size: 2rem;
 }
 
 .stripe-banner {
     margin-top: 0;
-    height: 10vw;
+    min-height: 15vw;
     background-image: linear-gradient(45deg, #e63946 10%, #f1faee 10%, #f1faee 20%, #a8dadc 20%, #a8dadc 30%, #457b9d 30%, #457b9d 40%, #1d3557 40%, #1d3557 50%, #e63946 50%, #e63946 60%, #f1faee 60%, #f1faee 70%, #a8dadc 70%, #a8dadc 80%, #457b9d 80%, #457b9d 90%, #1d3557 90%, #1d3557 100%);
     background-size: 141.42px 141.42px;
     background-attachment: fixed;
@@ -81,6 +81,10 @@ nav a {
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .page-section {
@@ -118,16 +122,17 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .project {
     border: solid 3px var(--aqua-blue);
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
     background-color: var(--primary-white);
     min-height: 200px;
     max-height: 300px;
-    flex-basis: 50%;
+    flex: 1 1 40%;
     text-decoration: none;
     font-size: 1.5rem;
     background-attachment: scroll;
@@ -145,6 +150,7 @@ nav a {
     flex-basis: 100%
 }
 
+/* Images for project boxes */
 .surf {
     background-image: url(../osaxon/img/surf.jpg);
 }
@@ -165,19 +171,22 @@ nav a {
 .run {
     background-image: url(../osaxon/img/run.jpg);
 }
+/* End of images */
+
 
 @media screen and (max-width: 980px) {
     header {
         justify-content: center;
         text-align: center;
+        padding: 2% 0 0 0%
     }
 
-    header nav {
-        margin-top: 5%;
+    nav {
+        width: 100vw;
         justify-content: center;
     }
 
-    header h1 {
+    h1 {
         width: 100vw;
         padding: 5px;
         margin-top: 5px;
