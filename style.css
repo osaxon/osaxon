@@ -72,6 +72,17 @@ a {
     padding: 2% 6%;
 }
 
+.img-me {
+    background-image: url(../osaxon/img/Me.jpg);
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
 .stripe-banner h3 {
     margin-top: 0;
 }
