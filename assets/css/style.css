@@ -83,7 +83,7 @@ a {
 }
 
 .img-me {
-    background-image: url(../osaxon/img/Me.jpg);
+    background-image: url(../img/Me.jpg);
     background-size: cover;
     margin-right: auto;
     margin-left: auto;
@@ -168,24 +168,24 @@ a {
 
 /* Images for project boxes */
 .surf {
-    background-image: url(../osaxon/img/surf.jpg);
+    background-image: url(../img/surf.jpg);
 }
 
 .LED {
-    background-image: url(../osaxon/img/LED.jpg);
+    background-image: url(../img/LED.jpg);
 }
 
 .calc {
     background-position: left center;
-    background-image: url(../osaxon/img/calc.jpg)
+    background-image: url(../img/calc.jpg)
 }
 
 .pastel {
-    background-image: url(../osaxon/img/pastel.jpg);
+    background-image: url(../img/pastel.jpg);
 }
 
 .run {
-    background-image: url(../osaxon/img/run.jpg);
+    background-image: url(../img/run.jpg);
 }
 
 
