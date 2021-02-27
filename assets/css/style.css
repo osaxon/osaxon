@@ -11,7 +11,7 @@
     --light-blue:#457b9d;
     --aqua-blue:#a8dadc;
     --heading-font: 'Press Start 2P', cursive;
-    --main-font: 'Oxygen', sans-serif;
+    --main-font: 'PT Sans', sans-serif;
 }
 
 
@@ -22,6 +22,7 @@ body {
 
 header {
     padding: 5px;
+    min-height: 10vw;
     display: flex;
     background-color: var(--dark-blue);
     flex-direction: row;
@@ -34,24 +35,24 @@ header {
 nav {
     background-color: var(--primary-white);
     padding: 0 15px;
-    flex: 1 0 10%;
-    max-width: 45vw;
+    min-height: 5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header h1 {
     font-family: var(--heading-font);
     color: var(--primary-white);
-    flex: 1 1 20%;
 }
 
 h2, h3 {
     color: var(--dark-blue);
     font-family: var(--main-font);
+    font-size: 2rem;
 }
+
 
 p {
     margin: 0;
@@ -62,32 +63,23 @@ p {
 a {
     font-family: var(--main-font);
     color: var(--dark-blue);
-    flex: 0 1 50%;
     font-size: 1.3rem;
     padding-right: 10px;
     padding-left: 10px;
-    text-align: center;
 }
 
 .stripe-banner {
     margin-top: 0;
-    min-height: 15vw;
+    min-height: 10vw;
     background-image: linear-gradient(45deg, #e63946 10%, #f1faee 10%, #f1faee 20%, #a8dadc 20%, #a8dadc 30%, #457b9d 30%, #457b9d 40%, #1d3557 40%, #1d3557 50%, #e63946 50%, #e63946 60%, #f1faee 60%, #f1faee 70%, #a8dadc 70%, #a8dadc 80%, #457b9d 80%, #457b9d 90%, #1d3557 90%, #1d3557 100%);
     background-size: 141.42px 141.42px;
-    background-attachment: fixed;
     background-color: var(--aqua-blue);
     background-blend-mode: overlay;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     text-align: right;
-    padding: 2% 6%;
-}
-
-span {
-    font-weight: bold;
-    color: var(--red);
-    font-style: italic;
-    font-size: 1.5rem;
+    padding: 2% 4%;
 }
 
 .img-me {
@@ -101,12 +93,8 @@ span {
     width: 200px;
 }
 
-.stripe-banner h3 {
-    margin-top: 0;
-}
-
-
-.wrapper {
+/* Contains all other section elements arranged in a column */
+.main-flex-wrapper {
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -116,17 +104,16 @@ span {
     justify-content: space-evenly;
 }
 
-.page-section {
+/* Used for About Me, My Work and Contact sections */
+.section-wrapper {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
     justify-content: space-between;
 }
 
-.page-section > h2 {
+.section-wrapper > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -136,13 +123,13 @@ span {
     line-height: 1.5;
 }
 
-.page-section > div {
+.section-wrapper > div {
     flex: 0 0 77%;
     margin-top: 20px;
     line-height: 1.5;
 }
 
-.page-section p {
+.section-wrapper p {
     margin-bottom: 20px;
 }
 
@@ -173,7 +160,7 @@ span {
 
 .project:first-child {
     background-attachment: fixed;
-    background-size: 80%;
+    background-size: 100%;
     min-width: 300px;
     min-height: 300px;
     flex-basis: 100%
@@ -200,7 +187,7 @@ span {
 .run {
     background-image: url(../osaxon/img/run.jpg);
 }
-/* End of images */
+
 
 
 @media screen and (max-width: 980px) {
@@ -212,9 +199,10 @@ span {
     nav {
         max-width: 100vw;
         flex: 0 0 100%;
+        align-items: stretch;
     }
 
-    .page-section > h2 {
+    .section-wrapper > h2 {
         flex: 0 0 100%;
         text-align: left;
         border-right: none;
@@ -224,20 +212,18 @@ span {
         font-size: 3rem;
     }
 
-    .page-section > div {
+    .section-wrapper > div {
         flex: 0 0 100%;
     }
 
-    .page-section {
+    .section-wrapper {
         margin-top: 10px;
     }
 
-    nav {
-        margin-top: 2.5%;
-    }
+    
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
     .project, .project:first-child {
         flex-basis: 100%;
     }
@@ -254,4 +240,3 @@ span {
         text-align: center;
     }
 }
-
