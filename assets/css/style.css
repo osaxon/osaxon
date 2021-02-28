@@ -169,6 +169,11 @@ a {
     background-repeat: no-repeat;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .project:first-child {
     background-attachment: fixed;
