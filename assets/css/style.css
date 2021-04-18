@@ -155,6 +155,7 @@ a {
 .project {
     border: solid 3px var(--light-blue);
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
     background-color: var(--primary-white);
     min-height: 200px;
@@ -167,6 +168,11 @@ a {
     background-position: bottom;
     background-size: 120%;
     background-repeat: no-repeat;
+}
+
+.project > h3 {
+    color: var(--aqua-blue);
+    background-color: var(--light-blue);
 }
 
 .contact {
@@ -184,24 +190,24 @@ a {
 }
 
 /* Images for project boxes */
-.surf {
+.wwwt {
     background-image: url(../img/surf.jpg);
 }
 
-.LED {
+.weather {
     background-image: url(../img/LED.jpg);
 }
 
-.calc {
+.quiz {
     background-position: left center;
     background-image: url(../img/calc.jpg)
 }
 
-.pastel {
+.work {
     background-image: url(../img/pastel.jpg);
 }
 
-.run {
+.pw {
     background-image: url(../img/run.jpg);
 }
 
