@@ -195,7 +195,8 @@ a {
 }
 
 .weather {
-    background-image: url(../img/LED.jpg);
+    background-image: url(../img/weather.jpg);
+    background-position: top;
 }
 
 .quiz {
@@ -208,7 +209,8 @@ a {
 }
 
 .pw {
-    background-image: url(../img/run.jpg);
+    background-image: url(../img/lock.jpg);
+    background-position: top;
 }
 
 
