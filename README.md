@@ -1,5 +1,5 @@
 ## Oli Saxon
 
-Full stack web developer.
+Full stack web developer. 
 
-[Link](https://osaxonportfolio.netlify.app/)
+[Portfolio](https://osaxonportfolio.netlify.app/)
