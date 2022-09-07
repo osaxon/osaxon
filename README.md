@@ -1,5 +1,3 @@
 ## Oli Saxon
 
-Full stack web developer. 
-
-[Portfolio](https://osaxonportfolio.netlify.app/)
+Front end web developer. Keen problem solver. All round good guy :)
