@@ -5,7 +5,7 @@
 - **Languages:** JavaScript (ES6+)
 - **Front-end:** React, HTML5, CSS3, TailwindCSS, Astro, Next.JS
 - **Back-end:** Node.js, Express.js
-- **Databases:** MongoDB, SQL
+- **Databases:** PostgreSQL, MongoDB, SQL
 - **Tools:** Git, NPM, Jest
 - **Other Skills:** Agile and SCRUM
 
