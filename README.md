@@ -13,7 +13,7 @@
 
 ![Oli Saxon's GitHub stats](https://github-readme-stats.vercel.app/api?username=osaxon&show_icons=true&theme=radical)
 
-[![GitHub Trends SVG](https://api.githubtrends.io/user/svg/avgupta456/langs)](https://githubtrends.io)
+[[![GitHub Trends SVG](https://api.githubtrends.io/user/svg/avgupta456/langs)](https://githubtrends.io)](https://api.githubtrends.io/user/svg/osaxon/repos?time_range=three_months&group=other&theme=synthwaves)
 
 ## Let's Connect 🤝
 
