@@ -2,12 +2,13 @@
 
 ## Skills 🛠️
 
-- **Languages:** JavaScript (ES6+)
-- **Front-end:** React, HTML5, CSS3, TailwindCSS, Astro, Next.JS
-- **Back-end:** Node.js, Express.js
-- **Databases:** PostgreSQL, MongoDB, SQL
-- **Tools:** Git, NPM, Jest
-- **Other Skills:** Agile and SCRUM
+- **Languages:** JavaScript, TypeScript
+- **Front-end:** React, HTML5, CSS, TailwindCSS, Astro, Next.JS
+- **Back-end:** Node, Express, Bun
+- **Cloud:** Docker, Railway, Supabase
+- **Databases:** PostgreSQL, MongoDB, MySQL
+- **Tools:** Git, NPM, Jest, Supertest
+- **Other Skills:** Agile and SCRUM, Pair programming
 
 ## My GitHub Stats 📈
 
