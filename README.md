@@ -17,6 +17,6 @@
 
 ## Let's Connect 🤝
 
-- LinkedIn: [linkedin.com/in/olisaxon](https://linkedin.com/in/olisaxon)
-- Blog: [MyDevBlog.com](http://olisaxon.com)
+- [LinkedIn](https://www.linkedin.com/in/oliver-saxon-9a2918119/)
+- [olisaxon.co.uk](http://olisaxon.co.uk)
 
