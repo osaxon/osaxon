@@ -2,9 +2,9 @@
 
 ## Skills 🛠️
 
-- **Languages:** JavaScript, TypeScript
-- **Front-end:** React, HTML5, CSS, TailwindCSS, Astro, Next.JS
-- **Back-end:** Node, Express, Bun
+- **Languages:** JavaScript, TypeScript, C#, Go
+- **Front-end:** React, HTML5, CSS, TailwindCSS, Next.JS
+- **Back-end:** Node, Express,
 - **Cloud:** Docker, Railway, Supabase
 - **Databases:** PostgreSQL, MongoDB, MySQL
 - **Tools:** Git, NPM, Jest, Supertest
